@@ -30,7 +30,7 @@ main(){
 	                 
 	                if(pontosturno[x][y]<0){
 	                	
-	                	printf("Insira apenas números positivos, (time %s, turno %d) = ",classificacao[x],y+1);
+	                	printf("Insira apenas nÃºmeros positivos, (time %s, turno %d) = ",classificacao[x],y+1);
 						scanf("%d", &pontosturno[x][y]);
 		
 					}
@@ -74,7 +74,7 @@ main(){
     
     // Mostrar resultados!        
 	printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
-    printf("PONTUAÇÃO CONQUISTADA POR CADA TIME: \n");
+    printf("PONTUAÃ‡ÃƒO CONQUISTADA POR CADA TIME: \n");
     for (x=0;x<4;x++){
         printf(" Time: %s\n", nomescopia[x]);       
         for (y=0;y<2;y++){
@@ -82,16 +82,16 @@ main(){
         }
     }
     
-    // Classificação dos times!
+    // ClassificaÃ§Ã£o dos times!
     printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
-    printf("CLASSIFICAÇÃO FINAL:\n");
+    printf("CLASSIFICAÃ‡ÃƒO FINAL:\n");
     for (x=0;x<4;x++) {
         printf("%d lugar: %s - Total de Pontos: %d\n",x+1, classificacao[x], totalpontos[x]);
     }
     
-    //Output do campeão, vice-campeão e pior time do campeonato 
+    //Output do campeÃ£o, vice-campeÃ£o e pior time do campeonato 
     printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
-    printf("TIME CAMPEÃO: %s\n", classificacao[0]);
-    printf("VICE-CAMPEÃO: %s\n", classificacao[1]);
+    printf("TIME CAMPEÃƒO: %s\n", classificacao[0]);
+    printf("VICE-CAMPEÃƒO: %s\n", classificacao[1]);
     printf("PIOR TIME DO CAMPEONATO: %s\n", classificacao[3]);
 }
