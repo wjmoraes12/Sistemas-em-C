@@ -13,3 +13,6 @@ Com esses projetos inclui:
 notanecessaria = 10 - mediafinal
 
 Se caso a nota obtida no exame for igual ou maior que a nota necessaria ele estará APROVADO!
+
+
+IMPORTANTE: a forma em que os algoritmos desenvolvidos foi em base de critérios do professor, ou seja, desenvolvi usando apenas a matéria do bimestre!
